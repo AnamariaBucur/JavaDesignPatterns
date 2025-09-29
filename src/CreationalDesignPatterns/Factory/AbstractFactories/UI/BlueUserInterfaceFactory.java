@@ -1,13 +1,14 @@
 package CreationalDesignPatterns.Factory.AbstractFactories.UI;
 
-public class RedUserInterfaceFactory implements UserInterfaceFactory{
+public class BlueUserInterfaceFactory implements UserInterfaceFactory{
+
     @Override
     public Button createButton() {
-        return new RedButton();
+        return new BlueButton();
     }
 
     @Override
     public ScrollBar createScrollBar() {
-        return new RedScrollBar();
+        return new BlueScrollBar();
     }
 }

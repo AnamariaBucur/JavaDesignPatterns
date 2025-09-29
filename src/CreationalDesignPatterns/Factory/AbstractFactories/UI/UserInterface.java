@@ -27,4 +27,12 @@ public class UserInterface {
     public void setScrollBar(ScrollBar scrollBar) {
         this.scrollBar = scrollBar;
     }
+
+    @Override
+    public String toString() {
+        return "UserInterface{" +
+                "button=" + button.getColor() +
+                ", scrollBar=" + scrollBar.getColor() +
+                '}';
+    }
 }
