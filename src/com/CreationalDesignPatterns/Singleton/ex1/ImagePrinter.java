@@ -1,0 +1,8 @@
+package com.CreationalDesignPatterns.Singleton.ex1;
+
+public class ImagePrinter {
+    public void printImage() {
+        var spooler = PrintSpooler.getInstance();
+        spooler.print();
+    }
+}
