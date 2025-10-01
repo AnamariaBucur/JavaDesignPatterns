@@ -1,4 +1,4 @@
-package com.StructuralDesignPatterns.Bridge;
+package com.StructuralDesignPatterns.Bridge.Shapes;
 
 public class Red implements Color{
     @Override
