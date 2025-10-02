@@ -1,4 +1,4 @@
-package com.StructuralDesignPatterns.Flyweight;
+package com.StructuralDesignPatterns.Flyweight.Flowers;
 
 import java.util.HashMap;
 import java.util.Map;

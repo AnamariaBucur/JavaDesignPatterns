@@ -1,4 +1,4 @@
-package com.StructuralDesignPatterns.Flyweight;
+package com.StructuralDesignPatterns.Flyweight.Flowers;
 
 public class Garden {
     public static void main(String[] args) {
