@@ -3,7 +3,7 @@ package com.BehavioralDesignPatterns.Iterator.StationeryStore;
 import java.util.Iterator;
 
 public class StockIterator implements Iterator<Item> {
-    private Inventory inventory;
+    private final Inventory inventory;
     private int index;
 
     public StockIterator(Inventory inventory) {
