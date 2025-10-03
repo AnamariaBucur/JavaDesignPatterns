@@ -1,6 +1,6 @@
 package com.BehavioralDesignPatterns.Command.LightOnOff;
 
-public class LightCommandExecuter {
+public class LightCommandExecutor {
     public void execute(LightCommand lightCommand){
         lightCommand.execute();
     }

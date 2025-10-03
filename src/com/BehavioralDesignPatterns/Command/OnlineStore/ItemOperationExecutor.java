@@ -3,7 +3,7 @@ package com.BehavioralDesignPatterns.Command.OnlineStore;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ItemOperationExecuter {
+public class ItemOperationExecutor {
 
     List<ItemOperation> itemOperations = new ArrayList<>();
     public void queueOperation(ItemOperation itemOperation) {

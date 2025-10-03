@@ -4,10 +4,10 @@ public class App {
     public static void main(String[] args) {
         var light = new Light();
         light.isOn();
-        var lightCommandExecuter = new LightCommandExecuter();
-        lightCommandExecuter.execute(new TurnOnLightCommand(light));
+        var lightCommandExecutor = new LightCommandExecutor();
+        lightCommandExecutor.execute(new TurnOnLightCommand(light));
         light.isOn();
-        lightCommandExecuter.execute(new TurnOffLightCommand(light));
+        lightCommandExecutor.execute(new TurnOffLightCommand(light));
         light.isOn();
     }
 }
